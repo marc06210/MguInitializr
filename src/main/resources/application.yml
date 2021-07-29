@@ -26,8 +26,14 @@ initializr:
       
   languages:
     - name: Java
-      id: afkl-java
+      id: java
       default: true
+    - name: Kotlin
+      id: kotlin
+      default: false
+    - name: Groovy
+      id: groovy
+      default: false
       
   types:
     - name: Mgu Project
